@@ -1,5 +1,4 @@
-
-const BOARD = function() {
+ const BOARD = function() {
     const grid =  [];
 
     const createRow = (rNumber) => {
@@ -34,3 +33,5 @@ const BOARD = function() {
 
     return { grid };
 }();
+
+export default BOARD;
