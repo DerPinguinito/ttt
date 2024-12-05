@@ -23,7 +23,7 @@ const BOARD = function() {
         for (let i = 0; i < 3; i++) {
             const row = createRow(i);
 
-            for (let j = 0; j < 3; j++ ) {
+            for (let j = 0; j < 3; j++) {
                 const column = createColumn(j);
                 row.columns.push(column);
             }
@@ -34,5 +34,3 @@ const BOARD = function() {
 
     return { grid };
 }();
-
-console.log(BOARD.grid);
